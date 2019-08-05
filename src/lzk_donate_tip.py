@@ -51,18 +51,10 @@ if __name__ == "__main__":
     settings = QSettings()
     
     not_again = settings.value('not_again', type=bool)
-    #start_counter = settings.value('start_counter', type=int)
     tip_of_day = settings.value('tip_of_day', type=int)
     
-    #start_counter += 1
-    
-    if not force:
-        #if not_again or start_counter % 30 != 15:
-        if not_again:
-            # on sort tout de suite, sauf si c'est la 15ème fois, ou toutes les 30 après
-            #settings.setValue('start_counter', start_counter)
-            #settings.sync()
-            sys.exit(0)
+    if not_again and not force:
+        sys.exit(0)
     
     ### Translation process
     locale = QLocale.system().name()
@@ -86,7 +78,6 @@ if __name__ == "__main__":
     
     app.exec()
     
-    #settings.setValue('start_counter', start_counter)
     settings.setValue('not_again', dialog.notAgainChecked())
     settings.setValue('tip_of_day', tip_of_day+1)
     settings.sync()
