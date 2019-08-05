@@ -20,6 +20,8 @@ done
     cd "$code_root/src/"
     
     for file in *.py;do
+        [[ "$file" =~ ^"ui_" ]] && continue
+        
         if cat "$file"|grep -q _translate;then
             contents+="SOURCES += ../src/${file}
 "

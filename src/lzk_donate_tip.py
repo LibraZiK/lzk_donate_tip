@@ -29,7 +29,7 @@ class DonateDialog(QDialog):
         
         # la valeur après le modulo doit être le nombre de messages
         tip_day = day % 2
-        print(day, tip_day)
+        
         if tip_day == 0:
             message = _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>")
         elif tip_day == 1:
@@ -51,16 +51,17 @@ if __name__ == "__main__":
     settings = QSettings()
     
     not_again = settings.value('not_again', type=bool)
-    start_counter = settings.value('start_counter', type=int)
+    #start_counter = settings.value('start_counter', type=int)
     tip_of_day = settings.value('tip_of_day', type=int)
     
-    start_counter += 1
+    #start_counter += 1
     
     if not force:
-        if not_again or start_counter % 30 != 15:
+        #if not_again or start_counter % 30 != 15:
+        if not_again:
             # on sort tout de suite, sauf si c'est la 15ème fois, ou toutes les 30 après
-            settings.setValue('start_counter', start_counter)
-            settings.sync()
+            #settings.setValue('start_counter', start_counter)
+            #settings.sync()
             sys.exit(0)
     
     ### Translation process
@@ -85,7 +86,7 @@ if __name__ == "__main__":
     
     app.exec()
     
-    settings.setValue('start_counter', start_counter)
+    #settings.setValue('start_counter', start_counter)
     settings.setValue('not_again', dialog.notAgainChecked())
     settings.setValue('tip_of_day', tip_of_day+1)
     settings.sync()
