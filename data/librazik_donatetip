@@ -1,0 +1,4 @@
+#!/bin/bash
+
+INSTALL_PREFIX="X-PREFIX-X"
+exec "$INSTALL_PREFIX/share/librazik-donatetip/src/lzk_donate_tip.py" "$@" 
