@@ -27,12 +27,14 @@ class DonateDialog(QDialog):
     def setTipOfTheDay(self, day):
         message = _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>")
         
-        # la valeur après le modulo doit être le nombre de messages
+        # la valeur après le modulo doit être égale au nombre de messages
         tip_day = day % 2
         
         if tip_day == 0:
+            # ça ça me paraît pertinent
             message = _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>")
         elif tip_day == 1:
+            # ça c'est un peu naze, c'est juste pour l'exemple
             message = _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+Tab</span> shortcut ?</p><p><br/>This shortcut allows you to switch quickly<br/>between windows.</p></body></html>")
             
         self.ui.labelTipOfTheDay.setText(message)

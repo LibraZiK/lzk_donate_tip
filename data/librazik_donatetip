@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# ça c'est éditable, first_window doit être plus faible que after_first
+first_window=15
+after_first=30
+
 if [[ "$1" != "-f" ]];then
     counter_dir="$HOME/.config/librazik"
     counter_file="$counter_dir/start_counter"
@@ -13,7 +17,8 @@ if [[ "$1" != "-f" ]];then
         $(let "$start_counter") || start_counter=0
     fi
     echo "$(($start_counter+1))" > "$counter_file" || exit 3
-    [ $(($start_counter % 30)) != 15 ] && exit 0
+    
+    [ $(($start_counter % $after_first)) != $first_window ] && exit 0
 fi
 
 INSTALL_PREFIX="X-PREFIX-X"
