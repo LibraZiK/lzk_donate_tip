@@ -31,7 +31,3 @@ The required build dependencies are: <i>(devel packages of these)</i>
  - qtchooser
 Use these commands to install all build dependencies: <br/>
 `$ sudo apt-get install python3-pyqt5 pyqt5-dev-tools qtchooser`
-
-To run it, you'll additionally need:
-
- - python3-liblo
