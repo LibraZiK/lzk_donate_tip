@@ -6,7 +6,7 @@
     <message>
         <location filename="../resources/ui/donate.ui" line="14"/>
         <source>Donating to LibraZiK</source>
-        <translation type="unfinished">Donnez à LibraZiK</translation>
+        <translation>Donnez à LibraZiK</translation>
     </message>
     <message>
         <location filename="../resources/ui/donate.ui" line="28"/>
