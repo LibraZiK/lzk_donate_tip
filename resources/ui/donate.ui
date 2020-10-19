@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>426</width>
-    <height>412</height>
+    <width>416</width>
+    <height>510</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,22 +16,6 @@
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QLabel" name="labelDonate">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Thanks for using LibraZiK !&lt;/p&gt;&lt;p&gt;You seem to be a regular LibraZiK user.&lt;br/&gt;Create and maintain this distribution is a hard work that takes time.&lt;br/&gt;That is why donations (even small) are really appreciated.&lt;/p&gt;&lt;p&gt;You can donate &lt;a href=&quot;https://liberapay.com/LibraZiK/donate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt; .&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="openExternalLinks">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
      <item>
       <spacer name="verticalSpacer">
        <property name="orientation">
@@ -44,6 +28,22 @@
         </size>
        </property>
       </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelDonate">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thanks for using LibraZiK !&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;You seem to be a regular user of LibraZiK.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Creating and maintaining this distribution&lt;br/&gt;is a hard and constant work that takes time.&lt;br/&gt;&lt;br/&gt;That is why donations (even modest ones)&lt;br/&gt;are very much appreciated to help keep&lt;br/&gt;the motivation alive.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;You can make a donation &lt;a href=&quot;https://liberapay.com/LibraZiK/donate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt; .&lt;br/&gt;More information and alternatives about&lt;br/&gt;donation can be found &lt;a href=&quot;https://librazik.tuxfamily.org/base-site-LZK/english.php#donation&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0986d3;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QGroupBox" name="groupBox">
@@ -66,7 +66,7 @@
           <item>
            <widget class="QLabel" name="labelTipOfTheDay">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to start very quicky&lt;br/&gt;any software by typing its name.&lt;/p&gt;&lt;p&gt;This way, you don't have to create many and many&lt;br/&gt;shortcuts on the desktop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know the &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; shortcut?&lt;/p&gt;&lt;p&gt;This shortcut allows you to start any software&lt;br/&gt;very quickly by simply typing its name.&lt;/p&gt;&lt;p&gt;This way you don't have to create many and&lt;br/&gt;many shortcuts on the desktop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
