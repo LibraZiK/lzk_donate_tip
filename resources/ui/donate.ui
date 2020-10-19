@@ -25,7 +25,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Thanks to use LIBRAZIK !&lt;/p&gt;&lt;p&gt;You seems to be a regular LIBRAZIK user.&lt;br/&gt;Create and maintain this distribution is a hard work that takes time.&lt;br/&gt;That is why donations (even small) are really appreciated.&lt;/p&gt;&lt;p&gt;You can donate &lt;a href=&quot;https://liberapay.com/LibraZiK/donate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt; .&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Thanks for using LibraZiK !&lt;/p&gt;&lt;p&gt;You seem to be a regular LibraZiK user.&lt;br/&gt;Create and maintain this distribution is a hard work that takes time.&lt;br/&gt;That is why donations (even small) are really appreciated.&lt;/p&gt;&lt;p&gt;You can donate &lt;a href=&quot;https://liberapay.com/LibraZiK/donate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt; .&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="openExternalLinks">
         <bool>true</bool>
