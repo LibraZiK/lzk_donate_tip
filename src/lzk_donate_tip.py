@@ -4,7 +4,7 @@ import os
 import signal
 import sys
 from PyQt5.QtWidgets import QDialog, QApplication
-from PyQt5.QtCore import QLocale, QTranslator, QTimer, QSettings
+from PyQt5.QtCore import QLocale, QTranslator, QTimer, QSettings, QLibraryInfo
 
 import ui_donate
 
@@ -63,8 +63,14 @@ if __name__ == "__main__":
     appTranslator = QTranslator()
     if appTranslator.load("%s/locale/lzk_donatetip_%s" % (getCodeRoot(), locale)):
         app.installTranslator(appTranslator)
+
+    sysTranslator = QTranslator()
+    pathSysTranslations = QLibraryInfo.location(QLibraryInfo.TranslationsPath)
+    if sysTranslator.load(QLocale(), 'qt', '_', pathSysTranslations):
+        app.installTranslator(sysTranslator)
+
     _translate = QApplication.translate
-    
+
     #connect signals
     signal.signal(signal.SIGINT , signalHandler)
     signal.signal(signal.SIGTERM, signalHandler)
