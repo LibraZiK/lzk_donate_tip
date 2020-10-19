@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# This is a little script for refresh lzk_donatetip.pro and update .ts files.
-# TRANSLATOR: You don't need to run it !
+# This is a little script for refreshing the lzk_donatetip.pro and update .ts files.
+# TRANSLATORS: you don't need to run it!
 
 contents=""
 
