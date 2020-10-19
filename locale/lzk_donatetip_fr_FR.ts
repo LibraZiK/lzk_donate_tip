@@ -39,7 +39,7 @@
     <message>
         <location filename="../src/lzk_donate_tip.py" line="35"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to start very quicky&lt;br/&gt;any software by typing its name.&lt;/p&gt;&lt;p&gt;This way, you don&apos;t have to create many and many&lt;br/&gt;shortcuts on the desktop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccorci permet de démarrer très rapidement&lt;br/&gt;n&apos;importe quel programme en tapant son nom.&lt;/p&gt;&lt;p&gt;Comme ça, vous n&apos;avez pas à créer pléthore&lt;br/&gt;de raccourcis sur votre bureau.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci permet de démarrer très rapidement&lt;br/&gt;n&apos;importe quel programme en tapant son nom.&lt;/p&gt;&lt;p&gt;Comme ça, vous n&apos;avez pas à créer pléthore&lt;br/&gt;de raccourcis sur votre bureau.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/lzk_donate_tip.py" line="38"/>
