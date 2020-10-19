@@ -21,12 +21,12 @@
     <message>
         <location filename="../resources/ui/donate.ui" line="59"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:696;&quot;&gt;Tip Of The Day&lt;br/&gt;________________&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:696;&quot;&gt;Astuce du jour&lt;br/&gt;________________&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:696;&quot;&gt;Astuce du jour&lt;br/&gt;________________&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../resources/ui/donate.ui" line="69"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know the &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; shortcut?&lt;/p&gt;&lt;p&gt;This shortcut allows you to start any software&lt;br/&gt;very quickly by simply typing its name.&lt;/p&gt;&lt;p&gt;This way you don&apos;t have to create many and&lt;br/&gt;many shortcuts on the desktop.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci permet de démarrer très rapidement&lt;br/&gt;n&apos;importe quel programme en tapant son nom.&lt;/p&gt;&lt;p&gt;Comme ça, vous n&apos;avez pas à créer pléthore&lt;br/&gt;de raccourcis sur votre bureau.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci permet de démarrer très rapidement&lt;br/&gt;n&apos;importe quel programme en tapant son nom.&lt;/p&gt;&lt;p&gt;Comme ça, vous n&apos;avez pas à créer pléthore&lt;br/&gt;de raccourcis sur votre bureau.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../resources/ui/donate.ui" line="41"/>
@@ -44,7 +44,7 @@
     <message>
         <location filename="../src/lzk_donate_tip.py" line="38"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+Tab&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to switch quickly&lt;br/&gt;between windows.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+Tab&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de basculer rapidement&lt;br/&gt;entre les fenêtres.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
