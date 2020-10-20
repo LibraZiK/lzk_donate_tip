@@ -5,7 +5,7 @@ import signal
 import sys
 from PyQt5.QtWidgets import QDialog, QApplication
 from PyQt5.QtCore import QLocale, QTranslator, QTimer, QSettings, QLibraryInfo
-from PyQt5.QtGui import QPalette
+from PyQt5.QtGui import QPalette, QIcon
 
 import ui_donate
 
@@ -58,6 +58,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     app.setApplicationName("Librazik Donate Tip")
     app.setOrganizationName("librazik")
+    app.setWindowIcon(QIcon(':/icon_LZK.svg'))
     #app.setWindowIcon(QIcon(':/scalable/raysession.svg'))
     
     settings = QSettings()
