@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>576</width>
-    <height>616</height>
+    <width>547</width>
+    <height>624</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -67,15 +67,12 @@
       </spacer>
      </item>
      <item>
-      <widget class="QLabel" name="labelDonate">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
+      <widget class="QLabel" name="labelCoucou">
+       <property name="mouseTracking">
+        <bool>true</bool>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Thanks for using LibraZiK !&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;You seem to be a regular user of LibraZiK.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Creating and maintaining this distribution&lt;br/&gt;is a hard and constant work that takes time.&lt;br/&gt;&lt;br/&gt;That is why donations (even modest ones)&lt;br/&gt;are very much appreciated to help keep&lt;br/&gt;the motivation alive.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;You can make a donation &lt;a href=&quot;https://liberapay.com/LibraZiK/donate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt; .&lt;br/&gt;More information and alternatives about&lt;br/&gt;donation can be found &lt;a href=&quot;https://librazik.tuxfamily.org/base-site-LZK/english.php#donation&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0986d3;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;Thanks for using LibraZiK !&lt;br/&gt;Please, enjoy this little tip.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -86,7 +83,7 @@
       </widget>
      </item>
      <item>
-      <spacer name="verticalSpacer_2">
+      <spacer name="verticalSpacer_4">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
@@ -135,6 +132,38 @@
          </layout>
         </item>
        </layout>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelDonate">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Creating and maintaining this distribution is&lt;br/&gt;a hard and constant work that takes time.&lt;br/&gt;&lt;br/&gt;That is why donations (even modest ones) are very much appreciated&lt;br/&gt;to help keep the motivation alive.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;You can make a donation &lt;a href=&quot;https://liberapay.com/LibraZiK/donate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;br/&gt;More information and alternatives about donation can be found &lt;a href=&quot;https://librazik.tuxfamily.org/base-site-LZK/english.php#donation&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0986d3;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Now, go make some music!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
      <item>
