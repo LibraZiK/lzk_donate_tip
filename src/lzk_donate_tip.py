@@ -35,19 +35,41 @@ class DonateDialog(QDialog):
         return bool(self.ui.checkBox.checkState())
     
     def setTipOfTheDay(self, day):
-        message = _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>")
+        global_tips = [
+            _translate('tip of day', "<p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p>"),
+            _translate('tip of day', "<p>Do you know <span style=\" font-weight:600;\">ALT+Tab</span> shortcut ?</p><p><br/>This shortcut allows you to switch quickly<br/>between windows.</p>")]
         
-        # la valeur après le modulo doit être égale au nombre de messages
-        tip_day = day % 2
+        mate_tips = []
+        kde_tips = [_translate('tip of day', "<p>Do you know <span style=\" font-weight:600;\">Ctrl+Alt+Esc</span> shortcut ?</p><p><br/>This shortcut allows you to kill windows if they are not responding</p>")]
         
-        if tip_day == 0:
-            # ça ça me paraît pertinent
-            message = _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>")
-        elif tip_day == 1:
-            # ça c'est un peu naze, c'est juste pour l'exemple
-            message = _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+Tab</span> shortcut ?</p><p><br/>This shortcut allows you to switch quickly<br/>between windows.</p></body></html>")
+        desktop = os.getenv('XDG_CURRENT_DESKTOP')
+        if desktop == 'MATE':
+            desktop_tips = mate_tips
+        elif desktop == 'KDE':
+            desktop_tips = kde_tips
+
+        # mixer les messages généraux et les messages d'environnement de bureau
+        tips = []
+        n = 0
+        while global_tips or desktop_tips:
+            if not global_tips:
+                tips += desktop_tips
+                break
+            if not desktop_tips:
+                tips += global_tips
+                break
+
+            if n % 2:
+                tips.append(desktop_tips.pop(0))
+            else:
+                tips.append(global_tips.pop(0))
+            n += 1
             
+        tip_day = day % len(tips)
+        message = tips[tip_day]
+
         self.ui.labelTipOfTheDay.setText(message)
+
 
 if __name__ == "__main__":
     force = False
