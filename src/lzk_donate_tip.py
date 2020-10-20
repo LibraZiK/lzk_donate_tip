@@ -5,6 +5,7 @@ import signal
 import sys
 from PyQt5.QtWidgets import QDialog, QApplication
 from PyQt5.QtCore import QLocale, QTranslator, QTimer, QSettings, QLibraryInfo
+from PyQt5.QtGui import QPalette, QIcon
 
 import ui_donate
 
@@ -15,11 +16,20 @@ def signalHandler(sig, frame):
     if sig in (signal.SIGINT, signal.SIGTERM):
         QApplication.quit()
 
+def isDarkTheme(widget):
+    return bool(
+        widget.palette().brush(QPalette.Active, QPalette.WindowText).color().lightness()
+        > 128)
+
 class DonateDialog(QDialog):
     def __init__(self):
         QDialog.__init__(self)
         self.ui = ui_donate.Ui_Dialog()
         self.ui.setupUi(self)
+
+        if not isDarkTheme(self):
+            self.ui.labelLogo.setText(
+                "<html><head/><body><p><img src=\":/logo-LZK3_light.svg\"/></p></body></html>")
     
     def notAgainChecked(self):
         return bool(self.ui.checkBox.checkState())
@@ -48,6 +58,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     app.setApplicationName("Librazik Donate Tip")
     app.setOrganizationName("librazik")
+    app.setWindowIcon(QIcon(':/icon_LZK.svg'))
     #app.setWindowIcon(QIcon(':/scalable/raysession.svg'))
     
     settings = QSettings()

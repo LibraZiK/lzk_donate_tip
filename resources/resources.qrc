@@ -1,5 +1,7 @@
 <RCC version="1.0">
     <qresource prefix="/">
-<!--         <file>folder/file</file> -->
+        <file>icon_LZK.svg</file>
+        <file>logo-LZK3.svg</file>
+        <file>logo-LZK3_light.svg</file>
     </qresource>
 </RCC>
