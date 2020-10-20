@@ -27,14 +27,13 @@ class DonateDialog(QDialog):
         self.ui = ui_donate.Ui_Dialog()
         self.ui.setupUi(self)
 
+        self.ui.toolButtonPrevious.clicked.connect(self.goPrevious)
+        self.ui.toolButtonNext.clicked.connect(self.goNext)
+
         if not isDarkTheme(self):
             self.ui.labelLogo.setText(
                 "<html><head/><body><p><img src=\":/logo-LZK3_light.svg\"/></p></body></html>")
-    
-    def notAgainChecked(self):
-        return bool(self.ui.checkBox.checkState())
-    
-    def setTipOfTheDay(self, day):
+        
         global_tips = [
             _translate('tip of day', "<p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p>"),
             _translate('tip of day', "<p>Do you know <span style=\" font-weight:600;\">ALT+Tab</span> shortcut ?</p><p><br/>This shortcut allows you to switch quickly<br/>between windows.</p>")]
@@ -49,27 +48,42 @@ class DonateDialog(QDialog):
             desktop_tips = kde_tips
 
         # mixer les messages généraux et les messages d'environnement de bureau
-        tips = []
+        self.tips = []
         n = 0
         while global_tips or desktop_tips:
             if not global_tips:
-                tips += desktop_tips
+                self.tips += desktop_tips
                 break
             if not desktop_tips:
-                tips += global_tips
+                self.tips += global_tips
                 break
 
             if n % 2:
-                tips.append(desktop_tips.pop(0))
+                self.tips.append(desktop_tips.pop(0))
             else:
-                tips.append(global_tips.pop(0))
+                self.tips.append(global_tips.pop(0))
             n += 1
-            
-        tip_day = day % len(tips)
-        message = tips[tip_day]
+        
+        self.tip_day = 0
+        
+    def notAgainChecked(self):
+        return bool(self.ui.checkBox.checkState())
+    
+    def setTipOfTheDay(self, day):
+        self.tip_day = day % len(self.tips)
+        message = self.tips[self.tip_day]
 
         self.ui.labelTipOfTheDay.setText(message)
 
+    def goPrevious(self):
+        day = len(self.tips) - 1
+        if self.tip_day:
+            day = self.tip_day -1
+
+        self.setTipOfTheDay(day)
+        
+    def goNext(self):
+        self.setTipOfTheDay(self.tip_day + 1)
 
 if __name__ == "__main__":
     force = False
