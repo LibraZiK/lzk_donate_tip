@@ -38,7 +38,7 @@ class DonateDialog(QDialog):
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>"),
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT+Tab</span> shortcut ?</p><p><br/>This shortcut allows you to switch quickly<br/>between windows.</p></body></html>")]
         
-        mate_tips = []
+        mate_tips = [_translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">Alt+right-click+move</span> shortcut ?</p><p><br/>This shortcut allows you to move a window. Very useful if a window is too big for your screen!</p></body></html>")]
         kde_tips = [_translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">Ctrl+Alt+Esc</span> shortcut ?</p><p><br/>This shortcut allows you to kill windows if they are not responding</p></body></html>")]
         
         desktop = os.getenv('XDG_CURRENT_DESKTOP')
