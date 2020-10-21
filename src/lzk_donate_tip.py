@@ -27,6 +27,9 @@ class DonateDialog(QDialog):
         self.ui = ui_donate.Ui_Dialog()
         self.ui.setupUi(self)
 
+        self.ui.toolButtonPrevious.clicked.connect(self.goPrevious)
+        self.ui.toolButtonNext.clicked.connect(self.goNext)
+
         if not isDarkTheme(self):
             self.ui.labelLogo.setText(
                 "<html><head/><body><p><img src=\":/logo-LZK3_light.svg\"/></p></body></html>")
