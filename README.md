@@ -1,4 +1,4 @@
 #  README for LibraZiK DonateTip
 Very simple pop up dialog window for donations and tips in LibraZiK distribution.
 
-developed by [houston4444](https://github.com/Houston4444/), using Python3 and Qt5.
+Developed by [houston4444](https://github.com/Houston4444/), using Python3 and Qt5.
