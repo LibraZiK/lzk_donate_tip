@@ -69,7 +69,7 @@
     <message>
         <location filename="../src/lzk_donate_tip.py" line="41"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+right-click+move&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to move a window. Very useful if a window is too big for your screen!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+clic-droit+déplacement&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de déplacer une fenêtre. Très utilie si une fenêtre est trop grande pour votre écran !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+clic-droit+déplacement&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de déplacer une fenêtre. Très utile si une fenêtre est trop grande pour votre écran !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/lzk_donate_tip.py" line="42"/>
