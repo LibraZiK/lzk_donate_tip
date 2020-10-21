@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<!DOCTYPE TS><TS version="2.0" language="fr_FR" sourcelanguage="">
 <context>
     <name>Dialog</name>
     <message>
@@ -58,23 +57,23 @@
     <name>tip of day</name>
     <message>
         <location filename="../src/lzk_donate_tip.py" line="38"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to start very quicky&lt;br/&gt;any software by typing its name.&lt;/p&gt;&lt;p&gt;This way, you don&apos;t have to create many and many&lt;br/&gt;shortcuts on the desktop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+F2&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci permet de démarrer très rapidement&lt;br/&gt;n&apos;importe quel programme en tapant son nom.&lt;/p&gt;&lt;p&gt;Comme ça, vous n&apos;avez pas à créer pléthore&lt;br/&gt;de raccourcis sur votre bureau.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;ALT + F2&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to start very quicky&lt;br/&gt;any software by typing its name.&lt;/p&gt;&lt;p&gt;This way, you don&apos;t have to create many and many&lt;br/&gt;shortcuts on the desktop.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT + F2&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci permet de démarrer très rapidement&lt;br/&gt;n&apos;importe quel programme en tapant son nom.&lt;/p&gt;&lt;p&gt;Comme ça, vous n&apos;avez pas à créer pléthore&lt;br/&gt;de raccourcis sur votre bureau.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/lzk_donate_tip.py" line="39"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+Tab&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to switch quickly&lt;br/&gt;between windows.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT+Tab&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de basculer rapidement&lt;br/&gt;entre les fenêtres.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;ALT + Tab&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to switch quickly&lt;br/&gt;between windows.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;ALT + Tab&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de basculer rapidement&lt;br/&gt;entre les fenêtres.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/lzk_donate_tip.py" line="41"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+right-click+move&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to move a window. Very useful if a window is too big for your screen!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Alt+clic-droit+déplacement&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de déplacer une fenêtre. Très utile si une fenêtre est trop grande pour votre écran !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../src/lzk_donate_tip.py" line="47"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + left-click + move&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to move a window. Very useful if a window is too big for your screen!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + clic-gauche + déplacement&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de déplacer une fenêtre. Très utile si une fenêtre est trop grande pour votre écran !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../src/lzk_donate_tip.py" line="42"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Ctrl+Alt+Esc&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to kill windows if they are not responding&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Ctrl+Alt+Esc&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de tuer les fenêtres si elles ne répondent plus.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../src/lzk_donate_tip.py" line="46"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Ctrl + Alt + Esc&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to kill windows if they are not responding&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Ctrl + Alt + Esc&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de tuer les fenêtres si elles ne répondent plus.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
