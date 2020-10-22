@@ -115,9 +115,6 @@ if __name__ == "__main__":
     locale = QLocale.system().name()
     appTranslator = QTranslator()
     if appTranslator.load(QLocale(), 'lzk_donatetip', '_', getCodeRoot() + '/locale'):
-        
-    
-    #if appTranslator.load("%s/locale/lzk_donatetip_%s" % (getCodeRoot(), locale)):
         app.installTranslator(appTranslator)
 
     sysTranslator = QTranslator()
