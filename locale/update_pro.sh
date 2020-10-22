@@ -30,8 +30,8 @@ done
 # done
 
 contents+="
-TRANSLATIONS += lzk_donatetip_en_US.ts
-TRANSLATIONS += lzk_donatetip_fr_FR.ts
+TRANSLATIONS += lzk_donatetip_en.ts
+TRANSLATIONS += lzk_donatetip_fr.ts
 "
 
 echo "$contents" > "$locale_root/lzk_donatetip.pro"
