@@ -48,7 +48,7 @@ src/ui_%.py: resources/ui/%.ui
 
 LOCALE: locale
 
-locale: locale/lzk_donatetip_fr_FR.qm locale/lzk_donatetip_en_US.qm
+locale: locale/lzk_donatetip_fr.qm locale/lzk_donatetip_en.qm
 
 locale/%.qm: locale/%.ts
 	$(LRELEASE) $< -qm $@
@@ -56,7 +56,9 @@ locale/%.qm: locale/%.ts
 
 clean:
 	rm -f *~ src/*~ src/*.pyc src/ui_*.py
+	rm -f src/resources_rc.py
 	rm -f -R src/__pycache__
+	rm -f locale/*.qm
 # -----------------------------------------------------------------------------------------------------------------------------------------
 
 debug:
