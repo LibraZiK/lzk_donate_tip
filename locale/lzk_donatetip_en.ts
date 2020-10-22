@@ -66,13 +66,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/lzk_donate_tip.py" line="47"/>
+        <location filename="../src/lzk_donate_tip.py" line="49"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + left-click + move&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to move a window. Very useful if a window is too big for your screen!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/lzk_donate_tip.py" line="46"/>
+        <location filename="../src/lzk_donate_tip.py" line="48"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Ctrl + Alt + Esc&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to kill windows if they are not responding&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/lzk_donate_tip.py" line="41"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pretty sure you don&apos;t know &lt;span style=&quot; font-weight:600;&quot;&gt;Qrest&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Do you?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/lzk_donate_tip.py" line="40"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know that you can come and chat live with other LibraZiK users?&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Come on the &lt;span style=&quot; font-weight:600;&quot;&gt;#librazik IRC channel.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
