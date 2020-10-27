@@ -38,7 +38,8 @@ class DonateDialog(QDialog):
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT + F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>"),
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT + Tab</span> shortcut ?</p><p><br/>This shortcut allows you to switch quickly<br/>between windows.</p></body></html>"),
             _translate('tip of day', "<html><head/><body><p>Do you know that you can come and chat live with other LibraZiK users?</p><p></br>Come on the <span style=\" font-weight:600;\">#librazik IRC channel.</p></body></html>"),
-            _translate('tip of day', "<html><head/><body><p>Pretty sure you don't know <span style=\" font-weight:600;\">Qrest</span>.</p><p></br>Do you?</p></body></html>")
+            _translate('tip of day', "<html><head/><body><p>Pretty sure you don't know <span style=\" font-weight:600;\">Qrest</span>.</p><p></br>Do you?</p></body></html>"),
+            _translate('tip of day', "<html><head/><body><p>j'irai chier sur vos tombes, ça fait un bon engrais pour les fleurs. Dis ça te dérangerai d'aller voir ça : <a href=\"http://www.linuxmao.org\"><span style=\" text-decoration: underline; color:#2980b9;\">linuxmao</span></a></p></body></html>")
                       ]
         
         mate_tips = [
@@ -48,7 +49,12 @@ class DonateDialog(QDialog):
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">Ctrl + Alt + Esc</span> shortcut ?</p><p><br/>This shortcut allows you to kill windows if they are not responding</p></body></html>"),
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">Alt + left-click + move</span> shortcut ?</p><p><br/>This shortcut allows you to move a window. Very useful if a window is too big for your screen!</p></body></html>")
                    ]
-        
+
+        self.bottom_texts = [
+            _translate('bottom_texts', "<html><head/><body><p align=\"center\">Creating and maintaining this distribution is<br/>a hard and constant work that takes time.<br/><br/>That is why donations (even modest ones) are very much appreciated<br/>to help keep the motivation alive.</p><p align=\"center\">You can make a donation <a href=\"https://liberapay.com/LibraZiK/donate\"><span style=\" text-decoration: underline; color:#2980b9;\">here</span></a>.<br/>More information and alternatives about donation can be found <a href=\"https://librazik.tuxfamily.org/base-site-LZK/english.php#donation\"><span style=\" text-decoration: underline; color:#0986d3;\">here</span></a>.</p><p align=\"center\">Now, go make some music!</p></body></html>"),
+            _translate('bottom_texts', "<html><head/><body><p align=\"center\">Another text is possible.<br/>Yes we can, please just do it !<br/>And make Librazik great again !</p></body></html>")
+                            ]
+
         desktop = os.getenv('XDG_CURRENT_DESKTOP')
         if desktop == 'MATE':
             desktop_tips = mate_tips
@@ -82,6 +88,9 @@ class DonateDialog(QDialog):
         message = self.tips[self.tip_day]
 
         self.ui.labelTipOfTheDay.setText(message)
+        
+        self.ui.labelDonate.setText(
+            self.bottom_texts[day % len(self.bottom_texts)])
     
     def goPrevious(self):
         day = len(self.tips) - 1
