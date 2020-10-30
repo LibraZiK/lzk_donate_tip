@@ -52,8 +52,7 @@ class DonateDialog(QDialog):
 
         self.bottom_texts = [
             _translate('bottom_texts', "<html><head/><body><p align=\"center\">Creating and maintaining this distribution is<br/>a hard and constant work that takes time.<br/><br/>That is why donations (even modest ones) are very much appreciated<br/>to help keep the motivation alive.</p><p align=\"center\">You can make a donation <a href=\"https://liberapay.com/LibraZiK/donate\"><span style=\" text-decoration: underline; color:#2980b9;\">here</span></a>.<br/>More information and alternatives about donation can be found <a href=\"https://librazik.tuxfamily.org/base-site-LZK/english.php#donation\"><span style=\" text-decoration: underline; color:#0986d3;\">here</span></a>.</p><p align=\"center\">Now, go make some music!</p></body></html>"),
-            _translate('bottom_texts', "<html><head/><body><p align=\"center\">Another text is possible.<br/>Yes we can, please just do it !<br/>And make Librazik great again !</p></body></html>")
-                            ]
+            _translate('bottom_texts', "<html><head/><body><p align=\"center\">LibraZiK takes many hours each week to be what it is.<br/>LibraZiK is free (as a free speech), and not really free (as a free drink).<br/>If you don't donate, the project will eventually stop.<br/>So, if you're able to finance the project, please donate!</br>If you're not able, that is fine, keep using it.</p></body></html>")                            ]
 
         desktop = os.getenv('XDG_CURRENT_DESKTOP')
         if desktop == 'MATE':
