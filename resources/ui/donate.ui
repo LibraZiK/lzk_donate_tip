@@ -247,7 +247,7 @@
      <item>
       <widget class="QCheckBox" name="checkBox">
        <property name="text">
-        <string>Do not show this message again</string>
+        <string>Do not show this message until the end of the month</string>
        </property>
       </widget>
      </item>

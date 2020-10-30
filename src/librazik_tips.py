@@ -4,7 +4,8 @@ import os
 import signal
 import sys
 from PyQt5.QtWidgets import QDialog, QApplication
-from PyQt5.QtCore import QLocale, QTranslator, QTimer, QSettings, QLibraryInfo
+from PyQt5.QtCore import (QLocale, QTranslator, QTimer, QSettings,
+                          QLibraryInfo, QDate)
 from PyQt5.QtGui import QPalette, QIcon
 
 import ui_donate
@@ -81,6 +82,9 @@ class DonateDialog(QDialog):
     
     def notAgainChecked(self):
         return bool(self.ui.checkBox.checkState())
+
+    def setNotAgain(self, not_again: bool):
+        self.ui.checkBox.setChecked(not_again)
     
     def setTipOfTheDay(self, day):
         self.tip_day = day % len(self.tips)
@@ -103,25 +107,18 @@ class DonateDialog(QDialog):
         self.setTipOfTheDay(self.tip_day + 1)
 
 if __name__ == "__main__":
-    force = False
-    if len(sys.argv) >= 2 and sys.argv[1] == '-f':
-        force = True
-    
     #set Qt Application
     app = QApplication(sys.argv)
-    app.setApplicationName("Librazik Donate Tip")
+    app.setApplicationName("Librazik Tips")
     app.setOrganizationName("librazik")
     app.setWindowIcon(QIcon(':/icon_LZK.svg'))
-    #app.setWindowIcon(QIcon(':/scalable/raysession.svg'))
-    
+    app.setDesktopFileName('org.tuxfamily.librazik.librazik_tips')
+
     settings = QSettings()
-    
+
     not_again = settings.value('not_again', type=bool)
     tip_of_day = settings.value('tip_of_day', type=int)
-    
-    if not_again and not force:
-        sys.exit(0)
-    
+
     ### Translation process
     locale = QLocale.system().name()
     appTranslator = QTranslator()
@@ -145,6 +142,7 @@ if __name__ == "__main__":
     timer.timeout.connect(lambda: None)
     
     dialog = DonateDialog()
+    dialog.setNotAgain(not_again)
     dialog.setTipOfTheDay(tip_of_day)
     dialog.setBottomText(tip_of_day)
     dialog.show()
@@ -153,5 +151,6 @@ if __name__ == "__main__":
     
     settings.setValue('not_again', dialog.notAgainChecked())
     settings.setValue('tip_of_day', tip_of_day+1)
+    settings.setValue('month', QDate.currentDate().month())
     settings.sync()
     del app
