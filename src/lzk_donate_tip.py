@@ -88,6 +88,7 @@ class DonateDialog(QDialog):
 
         self.ui.labelTipOfTheDay.setText(message)
         
+    def setBottomText(self, day):
         self.ui.labelDonate.setText(
             self.bottom_texts[day % len(self.bottom_texts)])
     
@@ -145,6 +146,7 @@ if __name__ == "__main__":
     
     dialog = DonateDialog()
     dialog.setTipOfTheDay(tip_of_day)
+    dialog.setBottomText(tip_of_day)
     dialog.show()
     
     app.exec()
