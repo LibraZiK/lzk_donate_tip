@@ -1,6 +1,7 @@
 FORMS += ../resources/ui/donate.ui
-SOURCES += ../src/lzk_donate_tip.py
+FORMS += ../resources/ui/exemple_astuce.ui
+SOURCES += ../src/librazik_tips.py
 
-TRANSLATIONS += lzk_donatetip_en_US.ts
-TRANSLATIONS += lzk_donatetip_fr_FR.ts
+TRANSLATIONS += lzk_donatetip_en.ts
+TRANSLATIONS += lzk_donatetip_fr.ts
 

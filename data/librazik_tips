@@ -1,0 +1,30 @@
+#!/bin/bash
+
+is_display_prevented(){
+    [[ "$1" == "-f" ]] && return 1
+    lzk_config_file="$HOME/.config/librazik/Librazik Tips.conf"
+    [ -f "$lzk_config_file" ] || return 1
+
+    grep -q ^hide_for_the_rest_of_the_life=true$ "$lzk_config_file" && return 0
+
+    
+    not_again_line=$(grep ^"not_again=" "$lzk_config_file"|head -n 1)
+    not_again=${not_again_line#*=}
+    case "$not_again" in
+        true|True)
+        ;;
+        *)
+            return 1
+    esac
+    
+    last_month_line=$(grep ^"month=" "$lzk_config_file"|head -n 1)
+    last_month=${last_month_line#*=}
+    month=$(date +%m)
+    [[ "$month" == "$last_month" ]] && return 0
+    return 1
+}
+
+is_display_prevented "$@" && exit 0
+
+INSTALL_PREFIX="X-PREFIX-X"
+exec "$INSTALL_PREFIX/share/librazik_tips/src/librazik_tips.py" "$@" 

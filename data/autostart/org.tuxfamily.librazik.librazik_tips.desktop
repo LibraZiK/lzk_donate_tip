@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Librazik Tips
+Name[fr]=Astuces Librazik
+Comment=Display tips for the Librazik distribution
+Comment[fr]=Afficheur d'astuces pour la distribution Librazik
+Version=1.0
+
+Type=Application
+Categories=AudioVideo;Audio;Qt;
+Keywords=audio;sound;tips;
+
+Exec=librazik_tips
+Terminal=false
+StartupNotify=true
+
+Icon=librazik_tips
