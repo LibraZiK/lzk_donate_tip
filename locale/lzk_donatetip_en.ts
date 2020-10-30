@@ -75,7 +75,7 @@
     </message>
     <message>
         <location filename="../src/librazik_tips.py" line="55"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Another text is possible.&lt;br/&gt;Yes we can, please just do it !&lt;br/&gt;And make Librazik great again !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;LibraZiK takes many hours each week to be what it is.&lt;br/&gt;LibraZiK is free (as a free speech), but not really free (as a free drink).&lt;br/&gt;If you don&apos;t donate, the project will eventually stop.&lt;br/&gt;So, if you&apos;re able to finance the project, please donate!&lt;/br&gt;If you&apos;re not able, that&apos;s ok, keep using it, we don&apos;t want money to be a blocker.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -103,7 +103,7 @@
     </message>
     <message>
         <location filename="../src/librazik_tips.py" line="42"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pretty sure you don&apos;t know &lt;span style=&quot; font-weight:600;&quot;&gt;Qrest&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Do you?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pretty sure you don&apos;t know &lt;a href=&quot;https://librazik.tuxfamily.org/doc3/logiciels/qrest&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;Qrest&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Do you?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
