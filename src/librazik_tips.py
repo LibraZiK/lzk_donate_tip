@@ -39,7 +39,7 @@ class DonateDialog(QDialog):
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT + F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>"),
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT + Tab</span> shortcut ?</p><p><br/>This shortcut allows you to switch quickly<br/>between windows.</p></body></html>"),
             _translate('tip of day', "<html><head/><body><p>Do you know that you can come and chat live with other LibraZiK users?</p><p></br>Come on the <span style=\" font-weight:600;\">#librazik IRC channel.</p></body></html>"),
-            _translate('tip of day', "<html><head/><body><p>Pretty sure you don't know <a href=\"https://librazik.tuxfamily.org/doc3/logiciels/qrest\"><span style=\" font-weight:600;\ text-decoration: underline; color:#2980b9;\">Qrest</span></a>.</p><p></br>Do you?</p></body></html>")
+            _translate('tip of day', "<html><head/><body><p>Pretty sure you don't know <a href=\"https://librazik.tuxfamily.org/doc3/logiciels/qrest\"><span style=\" font-weight:600; text-decoration: underline; color:#2980b9;\">Qrest</span></a>.</p><p></br>Do you?</p></body></html>")
                       ]
         
         mate_tips = [
