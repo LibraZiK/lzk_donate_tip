@@ -111,5 +111,10 @@
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know that you can come and chat live with other LibraZiK users?&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Come on the &lt;span style=&quot; font-weight:600;&quot;&gt;#librazik IRC channel.&lt;/p&gt;&lt;p&gt;More information about that &lt;a href=&quot;https://librazik.tuxfamily.org/base-site-LZK/english.php#help&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../src/librazik_tips.py" line="45"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + left-click + move&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to move a window. Very useful if a window is too big for your screen!&lt;/p&gt;&lt;p&gt;More information about MATE &lt;a href=&quot;https://mate-desktop.org/&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
