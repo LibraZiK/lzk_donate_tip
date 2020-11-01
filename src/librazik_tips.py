@@ -42,7 +42,7 @@ class DonateDialog(QDialog):
             _translate('tip of day', "<html><head/><body><p>Pretty sure you don't know <a href=\"https://github.com/deufrai/Qrest\"><span style=\" font-weight:600; text-decoration: underline; color:#2980b9;\">Qrest</span></a>.</p><p></br>Do you?</p></body></html>")
                       ]
         mate_tips = [
-            _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">Alt + left-click + move</span> shortcut ?</p><p><br/>This shortcut allows you to move a window. Very useful if a window is too big for your screen!</p></body></html>")
+            _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">Alt + left-click + move</span> shortcut ?</p><p><br/>This shortcut allows you to move a window. Very useful if a window is too big for your screen!</p><p>More information about MATE <a href=\"https://mate-desktop.org/\"><span style=\" font-weight:600; text-decoration: underline; color:#2980b9;\">here</span></a>.</p></body></html>"),
                     ]
         kde_tips = [
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">Ctrl + Alt + Esc</span> shortcut ?</p><p><br/>This shortcut allows you to kill windows if they are not responding</p></body></html>"),
