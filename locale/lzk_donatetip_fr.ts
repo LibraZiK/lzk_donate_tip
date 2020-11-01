@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<!DOCTYPE TS><TS version="2.0" language="fr" sourcelanguage="">
 <context>
     <name>Dialog</name>
     <message>
@@ -63,7 +62,7 @@
     </message>
     <message>
         <location filename="../resources/ui/exemple_astuce.ui" line="20"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pour obtenir les meilleurs Ã©chantillons de piano, il est vivement conseillÃ© au prÃ©alable d&apos;installer et de configurer la catapulte Ã&#xa0; pianos.&lt;/p&gt;&lt;p&gt;Vous trouverez un guide &lt;a href=&quot;https://www.letelegramme.fr/ig/generales/regions/nantes/nantes-royal-de-luxe-va-catapulter-des-pianos-07-12-2011-1526103.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pour obtenir les meilleurs &#xc3;&#xa9;chantillons de piano, il est vivement conseill&#xc3;&#xa9; au pr&#xc3;&#xa9;alable d&apos;installer et de configurer la catapulte &#xc3;&#xa0; pianos.&lt;/p&gt;&lt;p&gt;Vous trouverez un guide &lt;a href=&quot;https://www.letelegramme.fr/ig/generales/regions/nantes/nantes-royal-de-luxe-va-catapulter-des-pianos-07-12-2011-1526103.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -111,6 +110,11 @@
         <location filename="../src/librazik_tips.py" line="41"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know that you can come and chat live with other LibraZiK users?&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Come on the &lt;span style=&quot; font-weight:600;&quot;&gt;#librazik IRC channel.&lt;/p&gt;&lt;p&gt;More information about that &lt;a href=&quot;https://librazik.tuxfamily.org/base-site-LZK/english.php#help&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Savez-vous que vous pouvez venir discuter en direct avec d&apos;autres utilisateurs de LibraZiK ?&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Venez sur le &lt;span style=&quot; font-weight:600;&quot;&gt;canal IRC #librazik.&lt;/p&gt;&lt;p&gt;Plus d&apos;informations à ce sujet &lt;a href=&quot;https://librazik.tuxfamily.org/base-site-LZK/contact.php#IRC&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/librazik_tips.py" line="45"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + left-click + move&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to move a window. Very useful if a window is too big for your screen!&lt;/p&gt;&lt;p&gt;More information about MATE &lt;a href=&quot;https://mate-desktop.org/&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + clic-gauche + déplacement&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de déplacer une fenêtre. Très utile si une fenêtre est trop grande pour votre écran !&lt;/p&gt;&lt;p&gt;Plus d&apos;informations sur MATE &lt;a href=&quot;https://librazik.tuxfamily.org/doc3/manuel/mate&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
