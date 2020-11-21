@@ -3,5 +3,7 @@
         <file>icon_LZK.svg</file>
         <file>logo-LZK3.svg</file>
         <file>logo-LZK3_light.svg</file>
+        <file>go-next.png</file>
+        <file>go-previous.png</file>
     </qresource>
 </RCC>
