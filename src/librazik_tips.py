@@ -78,6 +78,11 @@ class DonateDialog(QDialog):
             n += 1
         
         self.tip_day = 0
+        
+        if self.ui.toolButtonNext.icon().isNull():
+            self.ui.toolButtonNext.setIcon(QIcon(':/go-next.png'))
+        if self.ui.toolButtonPrevious.icon().isNull():
+            self.ui.toolButtonPrevious.setIcon(QIcon(':/go-previous.png'))
     
     def notAgainChecked(self):
         return bool(self.ui.checkBox.checkState())
