@@ -63,7 +63,7 @@
     </message>
     <message>
         <location filename="../resources/ui/exemple_astuce.ui" line="20"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pour obtenir les meilleurs Ã©chantillons de piano, il est vivement conseillÃ© au prÃ©alable d&apos;installer et de configurer la catapulte Ã&#xa0; pianos.&lt;/p&gt;&lt;p&gt;Vous trouverez un guide &lt;a href=&quot;https://www.letelegramme.fr/ig/generales/regions/nantes/nantes-royal-de-luxe-va-catapulter-des-pianos-07-12-2011-1526103.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pour obtenir les meilleurs échantillons de piano, il est vivement conseillé au préalable d&apos;installer et de configurer la catapulte à pianos.&lt;/p&gt;&lt;p&gt;Vous trouverez un guide &lt;a href=&quot;https://www.letelegramme.fr/ig/generales/regions/nantes/nantes-royal-de-luxe-va-catapulter-des-pianos-07-12-2011-1526103.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
