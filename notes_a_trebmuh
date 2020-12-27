@@ -1,21 +1,14 @@
 Voilà voilà
-make && sudo make install pour installer.
+  make && sudo make install pour installer.
+après l'exécutable c'est librazik_donatetip .
 
-après l'executable c'est librazik_donatetip .
-
-Si tu veux éditer la fenêtre (notamment le message de donations), c'est avec qt5-designer.
+Si tu veux éditer la fenêtre (notamment le message de donation), c'est avec qt5-designer.
 
 Le compteur finalement est dans le script bash
-(c'est plus rapide que de lancer le python avec les imports nécessaires à la fenêtre quand finalement elle s'affiche pas).
-Là c'est reglé pour afficher la fenêtre au bout de 15 executions, puis tous les 30 ensuite.
-Tu peux changer ça dans le script dans data/
+(c'est plus rapide que de lancer le python avec les imports nécessaires à la fenêtre quand finalement elle ne s'affiche pas).
 
 Les messages d'astuce c'est dans le script python dans src/
-vu que tu as plein d'idées de trucs pédagogiques, ben tu peux les mettre là.
+Vu que tu as plein d'idées de trucs pédagogiques, tu peux les mettre là.
 J'espère avoir fait l'exemple assez clair pour que ce soit pas trop compliqué.
-Après ça tu vas dans locale/ et tu executes le ptit script ./update_pro.sh
+Après ça tu vas dans locale/ et tu exécutes le petit script ./update_pro.sh
 et puis make && sudo make install
-
-Il reste aussi à le mettre en démarrage auto ( /etc/xdg/autostart ?)
-La fenêtre a pas d'icône, je sais pas s'il existe une icône pour LZK, tu me dis.
-
