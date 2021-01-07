@@ -19,7 +19,7 @@ is_display_prevented(){
     
     last_month_line=$(grep ^"month=" "$lzk_config_file"|head -n 1)
     last_month=${last_month_line#*=}
-    month=$(date +%m)
+    month=$(date +%m| sed 's/^0//')
     [[ "$month" == "$last_month" ]] && return 0
     return 1
 }
