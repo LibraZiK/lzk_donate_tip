@@ -33,7 +33,7 @@ class DonateDialog(QDialog):
 
         if not isDarkTheme(self):
             self.ui.labelLogo.setText(
-                "<html><head/><body><p><img src=\":/logo-LZK3_light.svg\"/></p></body></html>")
+                "<html><head/><body><p><img src=\":/logo-LZK4_light.svg\"/></p></body></html>")
 
         global_tips = [
             _translate('tip of day', "<html><head/><body><p>Do you know <span style=\" font-weight:600;\">ALT + F2</span> shortcut ?</p><p><br/>This shortcut allows you to start very quicky<br/>any software by typing its name.</p><p>This way, you don't have to create many and many<br/>shortcuts on the desktop.</p></body></html>"),

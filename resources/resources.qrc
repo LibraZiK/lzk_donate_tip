@@ -1,8 +1,8 @@
 <RCC version="1.0">
     <qresource prefix="/">
         <file>icon_LZK.svg</file>
-        <file>logo-LZK3.svg</file>
-        <file>logo-LZK3_light.svg</file>
+        <file>logo-LZK4.svg</file>
+        <file>logo-LZK4_light.svg</file>
         <file>go-next.png</file>
         <file>go-previous.png</file>
     </qresource>
