@@ -110,7 +110,7 @@
     <message>
         <location filename="../src/librazik_tips.py" line="42"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pretty sure you don&apos;t know &lt;a href=&quot;https://github.com/deufrai/Qrest&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;Qrest&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;/br&gt;Do you?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Presque sûr que vous ne connaissez pas &lt;a href=&quot;https://librazik.tuxfamily.org/doc3/logiciels/qrest&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;Qrest&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;/br&gt;N&apos;est-ce pas ?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Presque sûr que vous ne connaissez pas &lt;a href=&quot;https://librazik.tuxfamily.org/doc4/logiciels/qrest&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;Qrest&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;/br&gt;N&apos;est-ce pas ?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/librazik_tips.py" line="41"/>
@@ -120,7 +120,7 @@
     <message>
         <location filename="../src/librazik_tips.py" line="45"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Do you know &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + left-click + move&lt;/span&gt; shortcut ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;This shortcut allows you to move a window. Very useful if a window is too big for your screen!&lt;/p&gt;&lt;p&gt;More information about MATE &lt;a href=&quot;https://mate-desktop.org/&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + clic-gauche + déplacement&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de déplacer une fenêtre. Très utile si une fenêtre est trop grande pour votre écran !&lt;/p&gt;&lt;p&gt;Plus d&apos;informations sur MATE &lt;a href=&quot;https://librazik.tuxfamily.org/doc3/manuel/mate&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connaissez-vous le raccourci &lt;span style=&quot; font-weight:600;&quot;&gt;Alt + clic-gauche + déplacement&lt;/span&gt; ?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;Ce raccourci vous permet de déplacer une fenêtre. Très utile si une fenêtre est trop grande pour votre écran !&lt;/p&gt;&lt;p&gt;Plus d&apos;informations sur MATE &lt;a href=&quot;https://librazik.tuxfamily.org/doc4/manuel/mate&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#2980b9;&quot;&gt;ici&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
